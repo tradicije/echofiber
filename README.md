@@ -13,8 +13,12 @@ everyday-use outputs:
 ## Status
 
 The project is in its foundation stage. It has a Rust workspace with a core
-library and a CLI shell; SOR parsing has not yet been implemented. The first
-supported sources will be SOR files from EXFO and Orientek OTDR instruments.
+library, a CLI shell, and preliminary versioned export models; SOR parsing has
+not yet been implemented. The first supported sources will be SOR files from
+EXFO and Orientek OTDR instruments.
+
+The current development schemas for `metadata.json`, `trace.csv`, and
+`events.json` are documented in [docs/export-formats.md](docs/export-formats.md).
 
 ## Development
 
@@ -29,6 +33,18 @@ cargo test --workspace
 The `echofiber` command currently confirms the installed application version;
 file-reading commands will be added after the binary format foundation is in
 place.
+
+## AI-assisted development
+
+AI tools may assist with implementation, documentation, and routine review.
+They do not replace technical ownership: the project's architecture, format
+decisions, test strategy, and acceptance criteria are defined and reviewed by
+people.
+
+OTDR measurements, sample selection, anonymisation, provenance, and validation
+against instrument displays and reports are human-performed responsibilities.
+No compatibility claim is accepted solely from AI-generated output or an
+unverified interpretation of a measurement.
 
 ## Goals
 

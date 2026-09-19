@@ -1,6 +1,8 @@
 //! Core library for `EchoFiber`.
 //!
-//! SOR parsing and export models will be added in later milestones.
+//! SOR parsing will be added in a later milestone.
+
+pub mod export;
 
 /// Returns the version of the core library.
 #[must_use]

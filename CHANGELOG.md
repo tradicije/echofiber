@@ -12,6 +12,9 @@ All notable changes will be documented in this file. The format follows
 - AGPL-3.0-or-later licensing.
 - Rust 2024 workspace with `echofiber-core` library and `echofiber` CLI shell.
 - Rust formatting, linting, testing, and GitHub Actions CI checks.
+- Preliminary versioned models and writers for `metadata.json`, `trace.csv`,
+  and `events.json`.
+- Documentation for the `0.1.0` development export schemas.
 
 ### Changed
 

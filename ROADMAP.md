@@ -19,9 +19,8 @@ This roadmap describes the order of work, not promised delivery dates.
 
 ## Phase 2 — First export
 
-- [ ] `metadata.json` with a versioned JSON schema.
-- [ ] `trace.csv` with stable, documented columns and units.
-- [ ] `events.json` for events contained in SOR files.
+- [x] Define preliminary, versioned schemas for `metadata.json`, `trace.csv`,
+  and `events.json`; implementation against actual SOR input remains pending.
 - [ ] `inspect`, `convert`, and `validate` CLI commands.
 
 ## Phase 3 — Field validation
