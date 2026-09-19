@@ -1,0 +1,13 @@
+[package]
+name = "echofiber-core"
+description = "Core types and parsing facilities for EchoFiber"
+authors.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+version.workspace = true
+
+[lints]
+workspace = true

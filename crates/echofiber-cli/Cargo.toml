@@ -1,0 +1,20 @@
+[package]
+name = "echofiber-cli"
+description = "Command-line interface for EchoFiber"
+authors.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+version.workspace = true
+
+[[bin]]
+name = "echofiber"
+path = "src/main.rs"
+
+[dependencies]
+echofiber-core = { path = "../echofiber-core", version = "0.1.0" }
+
+[lints]
+workspace = true

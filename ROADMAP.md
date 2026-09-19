@@ -5,7 +5,8 @@ This roadmap describes the order of work, not promised delivery dates.
 ## Phase 0 — Foundations
 
 - [x] AGPL-3.0-or-later licence and basic project policies.
-- [ ] Choose the CLI package name and Rust workspace structure.
+- [x] Choose the CLI package name and Rust workspace structure (`echofiber`,
+  `echofiber-core`, and `echofiber-cli`).
 - [ ] Define the sample, anonymisation, and data-provenance policy.
 - [ ] Collect publicly redistributable SOR fixtures and record their licences.
 

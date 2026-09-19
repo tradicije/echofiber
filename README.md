@@ -12,9 +12,23 @@ everyday-use outputs:
 
 ## Status
 
-The project is in its founding stage. The reference implementation has not yet
-been written. The first supported sources will be SOR files from EXFO and
-Orientek OTDR instruments.
+The project is in its foundation stage. It has a Rust workspace with a core
+library and a CLI shell; SOR parsing has not yet been implemented. The first
+supported sources will be SOR files from EXFO and Orientek OTDR instruments.
+
+## Development
+
+EchoFiber requires Rust 1.85 or later. The standard local checks are:
+
+```sh
+cargo fmt --check
+cargo clippy --workspace --all-targets -- -D warnings
+cargo test --workspace
+```
+
+The `echofiber` command currently confirms the installed application version;
+file-reading commands will be added after the binary format foundation is in
+place.
 
 ## Goals
 
