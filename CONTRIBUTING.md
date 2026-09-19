@@ -24,6 +24,19 @@ or other confidential data. For every permitted sample, provide:
 Small, anonymised fixtures are preferred. Large or restrictively shareable
 samples will not be added to the public repository.
 
+## Localisation
+
+Translations are welcome. Add a Fluent catalog at
+`locales/<BCP-47-language-tag>/messages.ftl`, copy every message identifier
+from the English reference catalog, and translate values only. Do not include
+OTDR measurements, customer information, file paths, or other input data in a
+translation.
+
+Run the standard checks before submitting a translation. They verify that every
+catalog provides every required message. See
+[docs/localization.md](docs/localization.md) for the full format and locale
+selection rules.
+
 ## Contribution licence
 
 By submitting a contribution, you confirm that you have the right to submit it

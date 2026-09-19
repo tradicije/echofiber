@@ -3,6 +3,7 @@
 //! SOR parsing will be added in a later milestone.
 
 pub mod export;
+pub mod i18n;
 
 /// Returns the version of the core library.
 #[must_use]

@@ -15,6 +15,9 @@ All notable changes will be documented in this file. The format follows
 - Preliminary versioned models and writers for `metadata.json`, `trace.csv`,
   and `events.json`.
 - Documentation for the `0.1.0` development export schemas.
+- Contributor-extensible Fluent localisation with embedded English and Serbian
+  Latin catalogs.
+- Localisation contribution guidance.
 
 ### Changed
 

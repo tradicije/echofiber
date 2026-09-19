@@ -34,6 +34,14 @@ The `echofiber` command currently confirms the installed application version;
 file-reading commands will be added after the binary format foundation is in
 place.
 
+## Localisation
+
+The CLI supports embedded Fluent translations, beginning with English (`en-US`)
+and Serbian Latin (`sr-Latn`). New translations do not require changing Rust
+code: add a BCP-47 locale directory and a `messages.ftl` catalog. See
+[docs/localization.md](docs/localization.md) for the contribution format and
+locale fallback rules.
+
 ## AI-assisted development
 
 AI tools may assist with implementation, documentation, and routine review.
