@@ -18,6 +18,8 @@ All notable changes will be documented in this file. The format follows
 - Contributor-extensible Fluent localisation with embedded English and Serbian
   Latin catalogs.
 - Localisation contribution guidance.
+- Checked, allocation-free binary reader with explicit endianness and
+  absolute-offset errors for untrusted input.
 
 ### Changed
 

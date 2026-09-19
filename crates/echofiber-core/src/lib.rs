@@ -2,6 +2,7 @@
 //!
 //! SOR parsing will be added in a later milestone.
 
+pub mod binary;
 pub mod export;
 pub mod i18n;
 

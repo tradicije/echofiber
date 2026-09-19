@@ -13,12 +13,14 @@ everyday-use outputs:
 ## Status
 
 The project is in its foundation stage. It has a Rust workspace with a core
-library, a CLI shell, and preliminary versioned export models; SOR parsing has
-not yet been implemented. The first supported sources will be SOR files from
-EXFO and Orientek OTDR instruments.
+library, a CLI shell, a checked binary reader, and preliminary versioned export
+models; SOR parsing has not yet been implemented. The first supported sources
+will be SOR files from EXFO and Orientek OTDR instruments.
 
 The current development schemas for `metadata.json`, `trace.csv`, and
 `events.json` are documented in [docs/export-formats.md](docs/export-formats.md).
+The binary safety boundary is documented in
+[docs/binary-reader.md](docs/binary-reader.md).
 
 ## Development
 

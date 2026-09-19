@@ -13,6 +13,8 @@ This roadmap describes the order of work, not promised delivery dates.
 
 ## Phase 1 — Reliable binary foundation
 
+- [x] Checked, read-only binary reader with bounded nested regions and
+  absolute-offset errors.
 - [ ] Read-only parser for the block map and strict file-boundary validation.
 - [ ] Diagnostics for corrupted, truncated, and unknown blocks.
 - [ ] Structures for preserving unknown blocks unchanged.
